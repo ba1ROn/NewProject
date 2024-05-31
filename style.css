@@ -1,0 +1,267 @@
+/* 1-2 серия
+.not-super {
+    color: brown;
+}
+
+.super {
+    font-size: 23px ;
+    color: rgb(128, 200, 55);
+}
+
+#valve {
+    font-size: 18px;
+    color: blue;
+}
+
+[placeholder] {
+    border: 3px solid darkorange;
+}
+
+[type = number] {
+    box-shadow: 3px 3px 3px 3px rgb(11, 114, 179);
+}
+
+[type=tel] {
+    box-shadow: 3px 3px 3px 3px rgb(11, 179, 47);
+}
+
+[type=email] {
+    box-shadow : 3px 3px 3px 3px rebeccapurple
+}
+
+section p {
+    color : black
+}
+section p span {
+    font-size: 20px;
+    color: red;
+}
+
+h1,
+h2,
+h3 {
+    color: blueviolet;
+}
+
+.button {
+    background-color: aquamarine;
+}
+.button.is-active {
+    background-color: brown;
+}
+
+section > h1 {
+    color: aqua;
+}   
+*/
+
+/* 3-5 серия
+.box {
+    display: block; 
+    border: 3px solid orange;
+}
+span {
+    display: inline;
+    border: 3px solid orange;
+}
+.present {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    border: 3px solid orange;
+}
+*/
+
+/* 6 серия
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Elymaic&display=swap');
+.shrift {
+    font-family: "Noto Sans Elymaic", sans-serif; пишем тут название шрифта
+    font-weight:500; пишем тут жирность
+    font-size:15px; пишем тут размер текста
+    line-height: 1.5; пишем тут межстрочный интервал*/
+
+/* 7-8 серия
+.box {
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdJuRlbpcefSIXlzPayJ_k0L-4pzHJue-SXcq7IRzPLQ&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aquamarine;
+}
+.boxer {
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(palegreen , indianred);
+}
+*/
+
+/* 9 серия
+.box {
+    height: 300px;
+    width: 300px;
+    background-color:palevioletred;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px 3px 4px 5px ;
+    box-shadow: -5px 10px;
+    margin-bottom: 30px;
+}
+img {
+    filter: drop-shadow(15px 15px 15px  red);
+}*/
+
+/* 10 серия
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+
+.mainBox {
+    background-color: black;
+    position: relative;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    z-index: 1;
+}
+.green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    
+}
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    left: 50px;
+}
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: sticky;
+    top: 0;
+}
+.gray {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+} */
+
+/* 11 серия
+.boxOne {
+    height: 300px;
+    width: 300px;
+    background-color:aquamarine;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.boxTwo {
+    height: 30%;
+    width: 70%;
+    background-color: rgb(202, 130, 130);
+    font-size: 0.5em;
+}
+.boxThree {
+    width: 20vw;
+    height: 20vh;
+    background-color: blue;
+
+}
+*/
+
+
+/* 12 серия
+.item {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    width: 25% ;
+    height: 100vh;
+}
+.One {background-color: aqua;}
+.Two {background-color:bisque;}
+.Three {background-color:aquamarine;}
+.Four {background-color:black;}
+.Five {background-color:blue;}
+.Six {background-color:blueviolet;}
+.Seven {background-color:brown;}
+.Eight {background-color:cadetblue;}
+.Nine {background-color:chartreuse;}
+.Ten {background-color:chocolate;}*/
+
+/*.container {
+    display: flex;
+    border: 10px solid yellow;
+    min-height: 100vh;
+    flex-direction: row;  Если ширина всех элементов превышает ширину контейнера, они могут выйти за его пределы. Чтобы этого избежать, можно использовать flex-wrap: wrap, чтобы элементы переносились на следующую строку.
+    flex-wrap: wrap;
+    
+    display: flex;
+    min-height: 100vh;
+    border: 10px solid yellow;
+    justify-content: center;
+    flex-direction: column;
+   
+
+    display: flex;
+    border: 10px solid yellow;
+    min-height: 100vh;
+    flex-direction: row;
+    align-items: center;
+
+  display: flex;
+  border: 10px solid yellow;
+  min-height: 100vh;
+  align-items: flex-start;
+}
+
+.Four {
+    align-self: flex-end;
+}
+
+.One {
+    align-self: center;
+    */
+
+ input::placeholder {
+    color:red
+ }  
+ 
+ .first::first-line {
+    text-transform: uppercase;
+    color: blueviolet;
+    background-color: aquamarine;
+
+ }
+
+ .second::before {
+    content: "🤜";
+ }
+
+ .second::after {
+    content: "🤛";
+ }
+
+
+
+
+
